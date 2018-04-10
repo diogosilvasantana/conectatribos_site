@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+.container {
+  width: 95%; }
+
+#home {
+	background-color: rgba(0,0,0 , 0.5 );
+	background-image: url('../img/pattern.png');
+	background-position: center;
+	background-repeat: repeat;
+  height: 850px;
+  margin-top: -65px; }
+
+  .brand-logo{
+    width: 250px;
+    padding: -10px;
+    background-color: #fff;
+    text-align: center;
+  }
+
+.logomarca {
+  margin-top: 100px;
+  text-align: center; }
+
+.parallax-container {
+  height: 400px; }
+
+.social {
+  margin-top: 80px;
+  margin-right: 80px;
+  text-align: right; }
+  .social li {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    background-color: #fff; }
+
+.contador {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: -30px;
+
+}
+    
+.nav-mobile ul li{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#my-soon-counter {background-color:#1a1616;background-color:rgba(26,22,22,0);}
+#my-soon-counter .soon-reflection {background-color:#1a1616;background-image:linear-gradient(#1a1616 25%,rgba(26,22,22,0));}
+#my-soon-counter {background-position:top;}
+#my-soon-counter {color:#ffffff;}
+#my-soon-counter {font-family:"Oswald",sans-serif;font-weight:600;font-style:normal;}
+#my-soon-counter .soon-ring-progress {color:#ffe700;color:rgba(255,231,0,2);}
+#my-soon-counter .soon-ring-progress {background-color:#f0f0f0;}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #fff; }
+
+h3{
+  font-size: 60px;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: #fff; 
+  margin-bottom: -20px;
+}
+
+
+.element.style {
+  margin-right: 0; }
+
+.instagram .section {
+  margin-top: -15px;
+  margin-bottom: -15px; }
+
+#ibacordotcom-content {
+  padding: 0 100px; }
+
+.brand-logo {
+  width: 270px;
+  opacity: 0;
+  transition: 0.6s; }
+  .brand-logo img {
+    width: 80%;
+    margin-top: 16px; }
+
+.menu-background {
+  background-color: transparent;
+  transition: 0.3s; }
+
+.nav-wrapper {
+  margin-left: -40px;
+  margin-top: 20px;
+  transition: 0.3s; }
+  .nav-wrapper ul li a span{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .nav-wrapper ul li a span:hover {
+    border-bottom: solid 2px yellow;
+    padding-bottom: 5px; }
+  .nav-wrapper ul li a:hover {
+    background: transparent;
+    padding-bottom: -10px; }
+
+.menu-center {
+  margin-left: 24%; }
+
+#agenda {
+  margin-top: -400px; }
+
+.agenda-titulo {
+  font-family: 'Permanent Marker', cursive; }
+
+.seta-left {
+  text-align: right;
+  margin-top: 50px; }
+
+.seta-right {
+  text-align: left;
+  margin-top: 50px; }
+
+  #participacao {
+    height: 600px;
+    background-image: url("../../includes/img/isadorapompeo.jpg");
+    background-size: 100%; }
+    #participacao .title {
+      margin-left: 30%; }
+
+
+.item {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  border: dotted 1px #fff; }
+  .item .dia {
+    font-size: 70px;
+    margin-bottom: -50px; }
+  .item .mes {
+    font-size: 30px;
+    margin-bottom: -25px; }
+  .item .cidade {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -25px; }
+  .item .local {
+    font-family: Arial;
+    font-size: 12px;
+    margin-bottom: 15px; }
+
+.scroll-pane {
+  width: 100%;
+  height: 350px;
+  overflow: auto; }
+  .scroll-pane p {
+    margin: 5px; }
+
+.jspVerticalBar {
+  width: 2px;
+  color: transparent; }
+
+.jspDrag {
+  width: 2px; }
+
+/*# sourceMappingURL=custom.css.map */
