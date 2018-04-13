@@ -21,8 +21,8 @@
     <link rel="stylesheet" href="includes/css/jquery.jscrollpane.css" />
 
     <script type="text/javascript">
-WebFontConfig={google:{families:['Oswald:300']}};(function(){var wf=document.createElement('script');wf.src=('https:'==document.location.protocol?'https':'http')+'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';wf.type='text/javascript';wf.async='true';var s=document.getElementsByTagName('head')[0];s.appendChild(wf);})()
-</script>
+    WebFontConfig={google:{families:['Oswald:300']}};(function(){var wf=document.createElement('script');wf.src=('https:'==document.location.protocol?'https':'http')+'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';wf.type='text/javascript';wf.async='true';var s=document.getElementsByTagName('head')[0];s.appendChild(wf);})()
+    </script>
 
 
   </head>
@@ -74,9 +74,10 @@ WebFontConfig={google:{families:['Oswald:300']}};(function(){var wf=document.cre
             <div class="col s12 logomarca">
             <img src="includes/img/logo-site.png">
             </div>
-
-
-
+          <br><br>
+          <div class="inscricao">
+            <div class="botao-inscricao"><a href="#">INSCREVA-SE AGORA</a></div>
+          </div>
             
           </div>
     

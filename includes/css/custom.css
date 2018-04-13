@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+
 .container {
   width: 95%; }
 
@@ -14,13 +15,21 @@
   .brand-logo{
     width: 250px;
     padding: -10px;
-    background-color: #fff;
     text-align: center;
   }
 
 .logomarca {
   margin-top: 100px;
   text-align: center; }
+
+.logomarca img{
+  width: 40%;
+}
+
+.logomarca-topo img{
+  width: 20%;
+  display: inline;
+}
 
 .parallax-container {
   height: 400px; }
@@ -45,9 +54,9 @@
   display: block;
   width: 100%;
   padding: -30px;
-
 }
-    
+
+  
 .nav-mobile ul li{
   font-family: 'Times New Roman', Times, serif;
 }
@@ -73,6 +82,26 @@ h3{
   margin-bottom: -20px;
 }
 
+.inscricao{
+  text-align: center;
+  padding: 10px;
+
+}
+
+.inscricao .botao-inscricao a{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px 30px;;
+  border: solid 3px #fff;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.inscricao .botao-inscricao a:hover{
+  background-color: #fff;
+  color: blue;
+}
 
 .element.style {
   margin-right: 0; }
@@ -89,7 +118,7 @@ h3{
   opacity: 0;
   transition: 0.6s; }
   .brand-logo img {
-    width: 80%;
+    width: 50%;
     margin-top: 16px; }
 
 .menu-background {
