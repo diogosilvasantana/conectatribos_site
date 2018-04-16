@@ -5,7 +5,7 @@
   width: 95%; }
 
 #home {
-	background-color: rgba(0,0,0 , 0.5 );
+	background-color: rgba(0,0,0, 0.5 );
 	background-image: url('../img/pattern.png');
 	background-position: center;
 	background-repeat: repeat;
@@ -19,11 +19,11 @@
   }
 
 .logomarca {
-  margin-top: 100px;
+  margin-top: 55px;
   text-align: center; }
 
 .logomarca img{
-  width: 40%;
+  width: 550px;
 }
 
 .logomarca-topo img{
@@ -85,13 +85,13 @@ h3{
 .inscricao{
   text-align: center;
   padding: 10px;
-
+  margin-top: 30px;
 }
 
 .inscricao .botao-inscricao a{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
-  padding: 15px 30px;;
+  padding: 15px 40px;;
   border: solid 3px #fff;
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -100,7 +100,7 @@ h3{
 
 .inscricao .botao-inscricao a:hover{
   background-color: #fff;
-  color: blue;
+  color:#0c3258;
 }
 
 .element.style {
@@ -118,6 +118,8 @@ h3{
   opacity: 0;
   transition: 0.6s; }
   .brand-logo img {
+    background-color: rgba(0,0,0, 0.8 );
+    padding: 15px;
     width: 50%;
     margin-top: 16px; }
 
@@ -200,5 +202,17 @@ h3{
 
 .jspDrag {
   width: 2px; }
+
+
+
+  @media screen and (max-width: 600px){
+    
+    .inscricao .botao-inscricao a{
+      font-size: 18px;
+    }
+    .logomarca img{
+      width: 370px;
+    }    
+  }
 
 /*# sourceMappingURL=custom.css.map */
