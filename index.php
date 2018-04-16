@@ -48,7 +48,7 @@
             <nav class="transparent z-depth-0">
                 <div class="nav-wrapper menu-background">
                     <div class="container">
-                        <div class="brand-logo"><img src="includes/img/logo-site.png"></div>
+                        <div class="brand-logo"><img src="includes/img/brand-logo.png"></div>
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                         <ul id="nav-mobile" class="menu-center hide-on-med-and-down">
                             <li><a href="#home"><span>HOME</span></a></li>
@@ -204,68 +204,47 @@
 
         </div>
 
-        <!-- MÚSICAS -->
+        <!-- PARTICIPACAO EXCLUSIVA -->
 
         <div id="participacao" class="section scrollspy red">
 
         </div>
 
-        <div class="instagram" style="margin: -15px 0;">
-            <section class="section scrollspy black" id="fotos">
-                <script src="includes/js/instagram.js" defer></script>
-                <div class="elfsight-app-ee9ac65f-59f7-474e-8bc2-5459a29ab963"></div>
-            </section>
-        </div>
-
-        <div id="redes_sociais" class="section scrollspy green">
-            <h2 class="title">REDES SOCIAIS</h2>
-        </div>
+                <!-- DÚVIDAS -->
 
         <div id="informacoes" class="section scrollspy white">
             <div class="container">
 
-                <h2 class="title">CONTATO</h2>
+              <h1>Dúvidas</h1>
 
-                <div class="row">
-                    <form class="col s4">
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input placeholder="Digite seu nome" id="nome" type="text" class="validate">
-                                <label for="nome">Nome</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input placeholder="Digite seu e-mail" id="email" type="email" class="validate">
-                                <label for="email">E-mail</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input placeholder="Digite o assunto" id="assunto" type="email" class="validate">
-                                <label for="assunto">Assunto</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input placeholder="Digite sua mensagem" id="mensagem" type="text" class="validate">
-                                <label for="telefone">Mensagem</label>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+  <ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>A pergunta aqui</h5></div>
+      <div class="collapsible-body"><span>A resposta aqui.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>A pergunta aqui</h5></div>
+      <div class="collapsible-body"><span>A resposta aqui.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>A pergunta aqui</h5></div>
+      <div class="collapsible-body"><span>A resposta aqui.</span></div>
+    </li>
+  </ul>
+                
             </div>
         </div>
         </div>
 
     </section>
 
-    <footer class="page-footer">
+    <footer class="page-footer grey darken-4">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Footer Content</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <h5 class="white-text">CONECTA TRIBOS</h5>
+                    <p class="grey-text text-lighten-4">1ª Edição do Conecta Tribos no Beto Carrero World, dia 21 de Agosto de 2018,
+                      com participação exclusiva da cantora ISADORA POMPEO. Este evento é realizado e organizado pela Aviva Viagens</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
@@ -280,8 +259,8 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2017 Copyright Weband - Todos os Direitos Reservados
-                <a class="grey-text text-lighten-4 right" href="#!">DS WebSolutions</a>
+                © 2018 Copyright Conecta Tribos - Todos os Direitos Reservados
+                <a class="grey-text text-lighten-4 right" href="http://www.dswebsolution.com.br">DS WebSolutions</a>
             </div>
         </div>
     </footer>
