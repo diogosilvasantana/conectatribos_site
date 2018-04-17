@@ -217,7 +217,7 @@
 
               <h1>Dúvidas</h1>
 
-  <ul class="collapsible">
+  <ul class="collapsible z-depth-0">
     <li>
       <div class="collapsible-header"><i class="medium material-icons">info</i><h5>A pergunta aqui</h5></div>
       <div class="collapsible-body"><span>A resposta aqui.</span></div>
@@ -241,26 +241,37 @@
     <footer class="page-footer grey darken-4">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">CONECTA TRIBOS</h5>
-                    <p class="grey-text text-lighten-4">1ª Edição do Conecta Tribos no Beto Carrero World, dia 21 de Agosto de 2018,
-                      com participação exclusiva da cantora ISADORA POMPEO. Este evento é realizado e organizado pela Aviva Viagens</p>
+                <div class="col l2 s12">
+                    <img src="includes/img/logo-site.png">
+                </div>
+                <div class="info-evento col l4 s12">
+                    <p class="grey-text text-lighten-4">1ª Edição do Conecta Tribos no Beto Carrero World, no dia 21 de Agosto de 2018, com participação exclusiva da cantora ISADORA POMPEO. Este evento é realizado e organizado pela Aviva Viagens</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
                         <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2018 Copyright Conecta Tribos - Todos os Direitos Reservados
-                <a class="grey-text text-lighten-4 right" href="http://www.dswebsolution.com.br">DS WebSolutions</a>
+                <div class="row">
+                    <div class="col s11">                
+                        <span>© 2018 Copyright Conecta Tribos | Aviva Viagens - Todos os Direitos Reservados<br>Desenvolvido por DS WEBSOLUTION</span>
+                    </div>
+                    <div class="col s1">
+
+                <div class="desenvolvedor">
+                   <!-- <span>Desenvolvido por:</span><br> -->
+                    <a class="grey-text text-lighten-4 right" href="http://www.dswebsolution.com.br"><img src="http://www.dswebsolution.com.br/images/logo.png"></a>
+                </div>
+                    </div>
+                </div>
+
+                
             </div>
         </div>
     </footer>
