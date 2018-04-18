@@ -37,8 +37,9 @@
   padding: -10PX;
 }  
 
-#evento .row.texto-evento{
+#evento .row .texto-evento{
   background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
   .parallax-container .parallax img{
     left: 45%;
@@ -203,10 +204,7 @@ h3{
   #participacao .title {
     margin-left: 30%; }
 
-.row .col.s7{
-      background-color:rgba(0, 0, 0, 0.5);
-      width: 56.3%;
-    }
+
 
 .scroll-pane {
 

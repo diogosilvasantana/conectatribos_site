@@ -155,16 +155,17 @@
             <!-- RELASE DESKTOP -->
             <div class="row container hide-on-med-and-down">
 
-                <!-- Coluna Esquerda -->
-                <div class="logo-betocarrero col s5">
-                    <img src="includes/img/betocarrero-logo.png">
-                </div>
                 <h2 class="title">O EVENTO</h2>
+                <!-- Coluna Esquerda -->
+               <!-- <div class=" col s5"></div> -->
+
+ 
                 <!-- Coluna Direita -->
 
 
-                <div class="col s7">
+                <div class="col s12">
                 <div class="texto-evento">
+                    
                     <div class="scroll-pane white-text">
                         <p>
                         O Beto Carrero você já SABE, é o maior  parque de diversões da America Latina com brinquedos do tipo  "impossível ir só uma vez". 
