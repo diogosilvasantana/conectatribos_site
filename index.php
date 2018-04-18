@@ -229,7 +229,7 @@
         <div id="informacoes" class="section scrollspy white">
             <div class="container">
 
-              <h1>FAQ – DÚVIDAS FREQUENTES</h1>
+              <h1 class="title">FAQ – DÚVIDAS FREQUENTES</h1>
 
   <ul class="collapsible z-depth-0">
     <li>

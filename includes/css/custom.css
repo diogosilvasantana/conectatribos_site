@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:900');
+
+.title{
+  font-family: 'Titillium Web', sans-serif;
+}
 
 .container {
   width: 95%; }
