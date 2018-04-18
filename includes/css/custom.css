@@ -225,6 +225,13 @@ h3{
 .jspDrag {
   width: 2px; }
 
+.jspTrack{
+    margin-top: 19px;
+}
+.jspContainer{
+  padding: 30px 10px;
+}  
+
 #faq .collapsible-header i{
   font-size: 2.3rem;
 }
