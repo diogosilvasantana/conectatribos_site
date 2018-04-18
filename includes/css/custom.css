@@ -20,18 +20,18 @@
 
 #evento{
   background-image: url("../img/evento-bg.jpg");
+  height: 530px;
 	background-position: center;
 	background-repeat: repeat;
   }  
 
 #evento .logo-betocarrero img{
-  width: 102%;
+  width: 103%;
   padding: -10PX;
 }  
 
-#evento .row .col.s7{
+#evento .row.texto-evento{
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 15px;
 }
   .parallax-container .parallax img{
     left: 43.5%;
@@ -214,13 +214,21 @@ h3{
     font-size: 12px;
     margin-bottom: 15px; }
 
+    .row .col.s7{
+      background-color:rgba(0, 0, 0, 0.5);
+      width: 56.3%;
+    }
+
 .scroll-pane {
+
   width: 100%;
   height: 350px;
   overflow: auto; }
   .scroll-pane p {
-    margin: 5px;
-    padding-right: 10px; }
+    font-size: 16px;
+    font-weight: 700;
+    font-kerning: initial;
+  }
 
 .jspVerticalBar {
   width: 2px;

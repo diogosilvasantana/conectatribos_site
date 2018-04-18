@@ -46,7 +46,7 @@
     <header>
         <div class="navbar-fixed">
             <nav class="transparent z-depth-0">
-                <div class="nav-wrapper menu-background">
+                <div class="menu-background nav-wrapper">
                     <div class="container">
                         <div class="brand-logo"><img src="includes/img/brand-logo.png"></div>
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -130,7 +130,7 @@
 
         <!-- O EVENTO -->
         <div id="evento" class="section scrollspy">
-            <h2 class="title">O EVENTO</h2>
+                        
 
             <!-- RELASE DESKTOP -->
             <div class="row container hide-on-med-and-down">
@@ -139,9 +139,12 @@
                 <div class="logo-betocarrero col s5">
                     <img src="includes/img/betocarrero-logo.png">
                 </div>
-
+                <h2 class="title">O EVENTO</h2>
                 <!-- Coluna Direita -->
+
+
                 <div class="col s7">
+                <div class="texto-evento">
                     <div class="scroll-pane white-text">
                         <p>
                         O Beto Carrero você já SABE, é o maior  parque de diversões da America Latina com brinquedos do tipo  "impossível ir só uma vez". 
@@ -177,7 +180,7 @@
                 </div>
 
             </div>
-
+    </div>
             <!-- RELEASE TABLET & MOBILE -->
             <div class="row container hide-on-large-only">
                 <div class="col s12 container">
