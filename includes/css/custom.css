@@ -5,6 +5,7 @@
 
 .title{
   font-family: 'Titillium Web', sans-serif;
+  text-align: center;
 }
 
 .container {
@@ -145,24 +146,24 @@ h3{
   transition: 0.6s; }
   .brand-logo img {
     background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
     width: 50%;
   }
-.menu-background {
-  background-color: transparent;
-  transition: 0.3s; }
 
 .nav-wrapper {
-  margin-left: -40px;
+  margin-left: 0px;
   margin-top: 20px;
   transition: 0.3s; }
   .nav-wrapper ul li a span{
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 23px;
+    font-weight: 600;
+    transition: 0.3s;
   }
   .nav-wrapper ul li a span:hover {
-    border-bottom: solid 2px yellow;
-    padding-bottom: 5px; }
+    color: yellow;
+    border-bottom: solid 2px red;
+    padding-bottom: -2px; }
   .nav-wrapper ul li a:hover {
     background: transparent;
     padding-bottom: -10px; }
@@ -184,37 +185,15 @@ h3{
   text-align: left;
   margin-top: 50px; }
 
-  #participacao {
-    height: 600px;
-    background-image: url("../../includes/img/isadorapompeo.jpg");
-    background-size: 100%; }
-    #participacao .title {
-      margin-left: 30%; }
+#participacao {
+  height: 600px;
+  background-image: url("../../includes/img/isadorapompeo.jpg");
+  background-size: 100%; }
 
+  #participacao .title {
+    margin-left: 30%; }
 
-.item {
-  background-color: rgba(0, 0, 0, 0.5);
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
-  text-align: center;
-  border: dotted 1px #fff; }
-  .item .dia {
-    font-size: 70px;
-    margin-bottom: -50px; }
-  .item .mes {
-    font-size: 30px;
-    margin-bottom: -25px; }
-  .item .cidade {
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: -25px; }
-  .item .local {
-    font-family: Arial;
-    font-size: 12px;
-    margin-bottom: 15px; }
-
-    .row .col.s7{
+.row .col.s7{
       background-color:rgba(0, 0, 0, 0.5);
       width: 56.3%;
     }
@@ -227,7 +206,6 @@ h3{
   .scroll-pane p {
     font-size: 16px;
     font-weight: 700;
-    font-kerning: initial;
   }
 
 .jspVerticalBar {
@@ -237,11 +215,16 @@ h3{
 .jspDrag {
   width: 2px; }
 
-#informacoes .collapsible-header i{
+#faq .collapsible-header i{
   font-size: 2.3rem;
 }
 
-#informacoes .collapsible-header h5{
+#faq h5{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#faq .collapsible-header h5{
   font-size: 1.3rem;
   margin: 0.5rem 0 0.3rem 0.3rem;
 }
@@ -318,7 +301,10 @@ footer img {
   text-align: center;
 }
 
+
 nav ul a{
-  padding: 0 30px;
+  padding: 0 25px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
 }
 /*# sourceMappingURL=custom.css.map */

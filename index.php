@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
     <title>Conecta Tribos | 11 DE AGOSTO 2018 - Aviva Viagens</title>
 
     <!--Import Google Icon Font-->
@@ -46,7 +47,7 @@
     <header>
         <div class="navbar-fixed">
             <nav class="transparent z-depth-0">
-                <div class="menu-background nav-wrapper">
+                <div class="menu-background nav-wrapper" >
                     <div class="container">
                         <div class="brand-logo"><img src="includes/img/brand-logo.png"></div>
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -54,7 +55,7 @@
                             <li><a href="#home"><span>HOME</span></a></li>
                             <li><a href="#evento"><span>O EVENTO</span></a></li>
                             <li><a href="#participacao"><span>PARTICIPAÇÃO EXCLUSIVA</span></a></li>
-                            <li><a href="#informacoes"><span>FAQ</span></a></li>
+                            <li><a href="#faq"><span>FAQ</span></a></li>
                         </ul>
             </nav>
             </div>
@@ -64,7 +65,7 @@
                     <li><a href="#home"><span>HOME</span></a></li>
                     <li><a href="#evento"><span>O EVENTO</span></a></li>
                     <li><a href="#participacao"><span>PARTICIPAÇÃO EXCLUSIVA</span></a></li>
-                    <li><a href="#informacoes"><span>FAQ</span></a></li>
+                    <li><a href="#faq"><span>FAQ</span></a></li>
                     <li>
                         <div class="divider"></div>
                     </li>
@@ -229,10 +230,12 @@
 
                 <!-- DÚVIDAS -->
 
-        <div id="informacoes" class="section scrollspy white">
+        <div id="faq" class="section scrollspy white">
             <div class="container">
 
               <h1 class="title">FAQ – DÚVIDAS FREQUENTES</h1>
+
+        <h5>Clique nas perguntas abaixo para visualizar as respostas</h5>
 
   <ul class="collapsible z-depth-0">
     <li>
