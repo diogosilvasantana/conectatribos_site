@@ -54,8 +54,7 @@
                             <li><a href="#home"><span>HOME</span></a></li>
                             <li><a href="#evento"><span>O EVENTO</span></a></li>
                             <li><a href="#participacao"><span>PARTICIPAÇÃO EXCLUSIVA</span></a></li>
-                            <li><a href="#informacoes"><span>INSCRIÇÕES</span></a></li>
-                            <li><a href="#informacoes"><span>DÚVIDAS</span></a></li>
+                            <li><a href="#informacoes"><span>FAQ</span></a></li>
                         </ul>
             </nav>
             </div>
@@ -65,7 +64,7 @@
                     <li><a href="#home"><span>HOME</span></a></li>
                     <li><a href="#evento"><span>O EVENTO</span></a></li>
                     <li><a href="#participacao"><span>PARTICIPAÇÃO EXCLUSIVA</span></a></li>
-                    <li><a href="#informacoes"><span>INFORMAÇÕES</span></a></li>
+                    <li><a href="#informacoes"><span>FAQ</span></a></li>
                     <li>
                         <div class="divider"></div>
                     </li>
@@ -81,7 +80,7 @@
     <section>
         <div id="home" class="section scrollspy parallax-container">
             <div class="parallax">
-                <img src="https://www.edenagtur.com.br/wp-content/uploads/2017/04/DSC1007_tonemapped-2.jpg">
+                <img src="http://www.aerotur.com.br/wp-content/uploads/2017/04/cmtravel-beto-carrero-world.png">
             </div>
 
             <div class="row">
@@ -94,7 +93,7 @@
         
 
             <div class="inscricao">
-                <div class="botao-inscricao"><a href="#">INSCREVA-SE AGORA</a></div>
+                <div class="botao-inscricao"><a href="#">COMPRE SEU INGRESSO AGORA!</a></div>
             </div>
 <!-- CONTADOR -->
 <div class="contador hide-on-small-only">
@@ -130,49 +129,49 @@
         </div>
 
         <!-- O EVENTO -->
-        <div id="evento" class="section scrollspy purple">
+        <div id="evento" class="section scrollspy">
             <h2 class="title">O EVENTO</h2>
 
             <!-- RELASE DESKTOP -->
             <div class="row container hide-on-med-and-down">
 
                 <!-- Coluna Esquerda -->
-                <div class="col s5">
-
+                <div class="logo-betocarrero col s5">
+                    <img src="includes/img/betocarrero-logo.png">
                 </div>
 
                 <!-- Coluna Direita -->
                 <div class="col s7">
                     <div class="scroll-pane white-text">
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        O Beto Carrero você já SABE, é o maior  parque de diversões da America Latina com brinquedos do tipo  "impossível ir só uma vez". 
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        Agora imagina um show de nível nacional nesse mesmo lugar! É exatamente isso o que o CONECTA TRIBOS vai fazer!
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        O nome dela é: Isadora Pompeo! Uma das cantoras mais expressivas da música gospel da atualidade! Dona da música “Minha morada”, aquela que cantamos, choramos, oramos e rimos sozinhos com o fone de ouvido dentro do ônibus!
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        A ideia é se divertir e ser edificado!  Você ficará de ponta cabeça a tarde, e com as mãos levantadas para os céus a noite! 
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        Um evento sem placa de igreja, perfeito para convidar os seus amigos e todos que você quer evangelizar e por que não, trazer todos do grupo de jovens da sua igreja?!
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        Mas não se engane: será mais que um show inédito em um lugar incrível!  Teremos uma ministração poderosa e é a última apresentação da cantora, antes da sua turnê na Europa. 
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        E com certeza não vai dá pra perder né!
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        Então, anota essa data aí: 11 de agosto!
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        1º CONECTA TRIBOS
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        Várias expressões de amor em um só lugar!
                         </p>
                     </div>
                 </div>
@@ -183,20 +182,35 @@
             <div class="row container hide-on-large-only">
                 <div class="col s12 container">
                     <div class="scroll-pane white-text">
-                        <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                    <p>
+                        O Beto Carrero você já SABE, é o maior  parque de diversões da America Latina com brinquedos do tipo  "impossível ir só uma vez". 
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        Agora imagina um show de nível nacional nesse mesmo lugar! É exatamente isso o que o CONECTA TRIBOS vai fazer!
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        O nome dela é: Isadora Pompeo! Uma das cantoras mais expressivas da música gospel da atualidade! Dona da música “Minha morada”, aquela que cantamos, choramos, oramos e rimos sozinhos com o fone de ouvido dentro do ônibus!
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        A ideia é se divertir e ser edificado!  Você ficará de ponta cabeça a tarde, e com as mãos levantadas para os céus a noite! 
                         </p>
                         <p>
-                            These examples show very basic functionality and exist so that I can test that any changes to jScrollPane work cross browser and don't cause any new problems. Note that these examples aren't meant to look pretty, they merely highlight different bits of functionaity which are available. If you want examples of jScrollPane looking good then check out the themes.
+                        Um evento sem placa de igreja, perfeito para convidar os seus amigos e todos que você quer evangelizar e por que não, trazer todos do grupo de jovens da sua igreja?!
+                        </p>
+                        <p>
+                        Mas não se engane: será mais que um show inédito em um lugar incrível!  Teremos uma ministração poderosa e é a última apresentação da cantora, antes da sua turnê na Europa. 
+                        </p>
+                        <p>
+                        E com certeza não vai dá pra perder né!
+                        </p>
+                        <p>
+                        Então, anota essa data aí: 11 de agosto!
+                        </p>
+                        <p>
+                        1º CONECTA TRIBOS
+                        </p>
+                        <p>
+                        Várias expressões de amor em um só lugar!
                         </p>
                     </div>
                 </div>
@@ -215,20 +229,45 @@
         <div id="informacoes" class="section scrollspy white">
             <div class="container">
 
-              <h1>Dúvidas</h1>
+              <h1>FAQ – DÚVIDAS FREQUENTES</h1>
 
   <ul class="collapsible z-depth-0">
     <li>
-      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>A pergunta aqui</h5></div>
-      <div class="collapsible-body"><span>A resposta aqui.</span></div>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>Quem pode participar?</h5></div>
+      <div class="collapsible-body"><span>O CONECTA TRIBOS é um evento sem placa de Igreja, aberto a todos que queiram vivenciar uma experiência única. </span></div>
     </li>
     <li>
-      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>A pergunta aqui</h5></div>
-      <div class="collapsible-body"><span>A resposta aqui.</span></div>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>Onde posso adquirir meu Ingresso do CONECTA TRIBOS?</h5></div>
+      <div class="collapsible-body"><span>O Ingresso do CONECTA TRIBOS só poderá ser adquirida através da pagina oficial do evento: www.avivaviagens.com.br/conectatribos.</span></div>
     </li>
     <li>
-      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>A pergunta aqui</h5></div>
-      <div class="collapsible-body"><span>A resposta aqui.</span></div>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>O que está incluso no seu Ingresso?</h5></div>
+      <div class="collapsible-body"><span>O Ingresso do CONECTA TRIBOS dá direito ao Passaporte para o Parque Beto Carrero World + Show da Isadora Pompeo.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>Onde fica o Beto Carrero World?</h5></div>
+      <div class="collapsible-body"><span>O Parque está localizado na cidade de Penha, litoral de Santa Catarina.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>Ao comprar meu Ingresso do CONECTA TRIBOS , qual comprovante eu terei da minha compra?</h5></div>
+      <div class="collapsible-body"><span>Ao finalizar a sua compra online, você deverá imprimir o voucher emitido pelo sistema e apresentar no dia do evento.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>O que devo fazer quando chegar ao Parque?</h5></div>
+      <div class="collapsible-body"><span>No dia do evento você deve se dirigir até as mesas de atendimento do CONECTA TRIBOS,  junto com seu RG ou certidão de nascimento originais, para retirar seu Passaporte/Parque Parque Beto Carrero + Pulseira para acesso ao Show.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>Qual horário que devo chegar?</h5></div>
+      <div class="collapsible-body">
+        <span>- Entre as 08h00 até as 17hs você poderá trocar seu voucher nas mesas de atendimento do CONECTA TRIBOS.<br> 
+              - O Funcionamento do Parque (brinquedos, zoológico, shows e atrações em geral) é das 09h as 18h. <br>
+              - O Show inicia as 19h30 e tem previsão de termino as 21h00.
+        </span>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="medium material-icons">info</i><h5>Posso comprar apenas o Ingresso para o Show?</h5></div>
+      <div class="collapsible-body"><span>A participação no Show não será permitida sem aquisição do ingresso único do CONECTA TRIBOS.  </span></div>
     </li>
   </ul>
                 
