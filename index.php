@@ -81,7 +81,7 @@
     <section>
         <div id="home" class="section scrollspy parallax-container">
             <div class="parallax">
-                <img src="http://www.aerotur.com.br/wp-content/uploads/2017/04/cmtravel-beto-carrero-world.png">
+                <img src="includes/img/bg-home.png">
             </div>
 
             <div class="row">
