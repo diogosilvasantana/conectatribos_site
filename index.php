@@ -344,6 +344,7 @@
                     <img src="includes/img/logo-site.png">
                 </div>
                 <div class="info-evento col l8 s12">
+                <h1 class="titulo-footer">1º Conecta Tribos 2018</h1>    
                     <p class="grey-text text-lighten-4">1ª Edição do Conecta Tribos no Beto Carrero World, no dia 21 de Agosto de 2018, com participação exclusiva da cantora ISADORA POMPEO. Este evento é realizado e organizado pela Aviva Viagens</p>
                 </div>
                 <div class="aviva-logo col l2 s12">
@@ -354,7 +355,8 @@
         <div class="footer-copyright">
             <div class="container">
                 <div class="row">
-                    <div class="col s11">                
+                    <div class="col s11">
+            
                         <span>© 2018 Copyright Conecta Tribos | Aviva Viagens - Todos os Direitos Reservados<br>Desenvolvido por DS WEBSOLUTION</span>
                     </div>
                     <div class="col s1">

@@ -385,6 +385,12 @@ footer img {
   float: right;
   margin-top: 19px;
 }
+.titulo-footer{
+  margin-top: 15px;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
 .grey.darken-4{
   border-top: 6px solid yellow;
 }
@@ -394,6 +400,7 @@ footer img {
 }
 .info-evento p{
   text-align: center;
+  margin-top: -23px;
 }
 
 
