@@ -244,7 +244,41 @@
 
         <!-- PARTICIPACAO EXCLUSIVA -->
 
-        <div id="participacao" class="section scrollspy red">
+        <div id="participacao" class="section scrollspy">
+
+            <div class="row container hide-on-med-and-down">
+
+                <div class="col s8">
+                    <div class="logo-isadora">  
+                        <img src="includes/img/isadorapompeo-logo.png">
+                        </div>
+                    <div class="texto-isadora white-text">
+                        <p>
+                        Olá, paz!</p><p> Me chamo Isadora Pompeo, nasci e cresci dentro de um lar cristão, 
+                        vivi experiências sobrenaturais durante toda minha infância, e hoje com tudo 
+                        que tenho aprendido e vivido, entendi que na verdade nunca foi sobre mim, mas 
+                        sempre sobre Ele em mim. Minha maior intenção dentro de tudo isso, é levar a 
+                        mensagem mais linda que já foi apresentada para mim, amor. Meu anseio é que você 
+                        entenda, que: Sua natureza está nEle, Você pode encontrar o ÉDEN que ele pôs dentro 
+                        de você, apenas entenda: Nunca foi sobre você...Mas sempre sobre Ele em ti! 
+                        </p>
+                        <p>
+                        Jesus abençoe!</p>
+                        <div class="nome-isadora">
+                            <p>Isadora Pompeo</p>
+                        </div>                        
+                    </div>
+                </div>
+
+                <div class="col s4">
+                    <div class="foto-isadora">
+                        <img src="includes/img/isadora-foto.png">
+                    </div>
+
+                </div>
+
+            </div>
+
 
         </div>
 
@@ -255,7 +289,7 @@
 
               <h1 class="title">FAQ – DÚVIDAS FREQUENTES</h1>
 
-        <h5>Clique nas perguntas abaixo para visualizar as respostas</h5>
+            <h5 class="subtitulo">Clique nas perguntas abaixo para visualizar as respostas</h5>
 
   <ul class="collapsible z-depth-0">
     <li>
@@ -309,15 +343,11 @@
                 <div class="col l2 s12">
                     <img src="includes/img/logo-site.png">
                 </div>
-                <div class="info-evento col l4 s12">
+                <div class="info-evento col l8 s12">
                     <p class="grey-text text-lighten-4">1ª Edição do Conecta Tribos no Beto Carrero World, no dia 21 de Agosto de 2018, com participação exclusiva da cantora ISADORA POMPEO. Este evento é realizado e organizado pela Aviva Viagens</p>
                 </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                    </ul>
+                <div class="aviva-logo col l2 s12">
+                    <img src="includes/img/avivaviagens-logo.png">
                 </div>
             </div>
         </div>

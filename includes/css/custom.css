@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:900');
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls');
+
 
 .title{
   font-family: 'Titillium Web', sans-serif;
@@ -38,6 +40,8 @@
 }  
 
 #evento .row .texto-evento{
+  border: dotted 1px #f1f1f1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
 }
@@ -100,7 +104,7 @@
 #my-soon-counter .soon-reflection {background-color:#1a1616;background-image:linear-gradient(#1a1616 25%,rgba(26,22,22,0));}
 #my-soon-counter {background-position:top;}
 #my-soon-counter {color:#ffffff;}
-#my-soon-counter {font-family:"Oswald",sans-serif;font-weight:600;font-style:normal;}
+#my-soon-counter {font-family: 'Titillium Web', sans-serif;font-weight:600;font-style:normal;}
 #my-soon-counter .soon-ring-progress {color:#ffe700;color:rgba(255,231,0,2);}
 #my-soon-counter .soon-ring-progress {background-color:#f0f0f0;}
 
@@ -198,16 +202,62 @@ h3{
 
 #participacao {
   height: 600px;
-  background-image: url("../../includes/img/isadorapompeo.jpg");
-  background-size: 100%; }
+  background-image: url("../../includes/img/bg-isadora.jpg");
+  background-size: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover; }
 
   #participacao .title {
     margin-left: 30%; }
 
+.texto-isadora{
+  border: dotted 1px #f1f1f1;
+  background: rgba(136, 3, 141, 0.514);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  padding: 10px 80px 5px 40px;;
+  margin-top: -65px;
+}
+.texto-isadora p{
+  font-family: 'Crafty Girls', cursive;
+  color: #fff; 
+  font-size: 19px;
+  font-weight: bold;
 
+}
+.nome-isadora{
+  text-align: right;
+  margin-top: -20px;
+  margin-right: 40px;
+}
+.nome-isadora p{
+  left: -50px;
+}
+.logo-isadora{
+  text-align: center;
+  margin-top: 10px;
+}
+.logo-isadora img{
+  border: dotted 1px #f1f1f1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  width:200px;
+  padding: 10px;
+  background-color: #79089b;
+}
+.foto-isadora img{
+  width: 145%;
+  margin-left: -140px;
+  filter: drop-shadow(0px 0px 30px #ffffff63);
+}
+.show-exclusivo{
+  margin-top: -40px;
+}
 
 .scroll-pane {
-
   width: 100%;
   height: 350px;
   overflow: auto; }
@@ -230,11 +280,31 @@ h3{
   padding: 30px 10px;
 }  
 
+#faq{
+  background-image: url("../../includes/img/faq-bg.jpg");
+  background-size: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover; }
+
+#faq .title{
+  color: #fff;
+}
+
 #faq .collapsible-header i{
   font-size: 2.3rem;
 }
 
-#faq h5{
+#faq .subtitulo{
+  margin-left: 20%;
+  background-color: #79089b;
+  width: 60%;
+  padding: 20px;
+  color: #fff;
   text-align: center;
   margin-top: -20px;
   margin-bottom: 30px;
@@ -249,9 +319,12 @@ h3{
   transition: 0.2s;
 }
 .collapsible-header:hover{
-  background-color: #f1f1f1;
+  background-color: #ebebeb;
 }
 
+.collapsible-body{
+  background: #fff;
+}
 
   @media screen and (max-width: 600px){
     
@@ -266,7 +339,13 @@ h3{
 footer img {
   width: 85%;
 } 
-
+.aviva-logo{
+  text-align: center;
+  margin-top: 20px;
+}
+.aviva-logo img{
+  width: 70%;
+}
 .footer-copyright .container{
   text-align: center;
   vertical-align: middle;
