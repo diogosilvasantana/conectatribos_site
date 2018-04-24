@@ -30,6 +30,9 @@
 
     <!--Import Google Icon Font-->
     <link rel="stylesheet " href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+
     <!-- Carousel -->
     <link rel="stylesheet" href="includes/css/owl.carousel.min.css">
     <link rel="stylesheet" href="includes/css/owl.theme.default.min.css">
@@ -41,6 +44,7 @@
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="includes/css/materialize.css" />
     <link rel="stylesheet" href="includes/css/custom.css" />
+    <link rel="stylesheet" href="includes/css/mobile.css"
     <!-- jQuery Scrollpane -->
     <link rel="stylesheet" href="includes/css/jquery.jscrollpane.css" />
 
@@ -118,7 +122,7 @@
                 <div class="botao-inscricao"><a href="#">COMPRE SEU INGRESSO AGORA!</a></div>
             </div>
             <!-- CONTADOR -->
-            <div class="contador hide-on-small-only">
+            <div class="contador hide-on-med-and-down">
                 <div class="soon" id="my-soon-counter" data-due="2018-08-11T10:00-03:00" data-layout="group label-uppercase label-big" data-scale-max="l" data-format="d,h,m,s" data-face="slot" data-visual="ring invert width-thick" data-labels-days="Dias" data-labels-hours="Horas" data-labels-minutes="Minutos" data-labels-seconds="Segundos">
                 </div>
             </div>
@@ -134,10 +138,9 @@
         <div id="evento" class="section scrollspy">
             <div class="row container hide-on-med-and-down">
                 <h2 class="title">O EVENTO</h2>
-                <div class="col s12">
+                <div class="col s6">
                     <div class="texto-evento">
-
-                        <div class="scroll-pane white-text">
+                        <div class="white-text">
                             <p>
                                 O Beto Carrero você já SABE, é o maior parque de diversões da America Latina com brinquedos do tipo "impossível ir só uma vez".
                             </p>
@@ -150,18 +153,23 @@
                             <p>
                                 A ideia é se divertir e ser edificado! Você ficará de ponta cabeça a tarde, e com as mãos levantadas para os céus a noite!
                             </p>
-                            <p>
-                                Um evento sem placa de igreja, perfeito para convidar os seus amigos e todos que você quer evangelizar e por que não, trazer todos do grupo de jovens da sua igreja?!
-                            </p>
+                            
+                                                    </div>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="texto-evento">
+                        <div class="white-text">
+                                <p>
+                                        Um evento sem placa de igreja, perfeito para convidar os seus amigos e todos que você quer evangelizar e por que não, trazer todos do grupo de jovens da sua igreja?!
+                                    </p>
                             <p>
                                 Mas não se engane: será mais que um show inédito em um lugar incrível! Teremos uma ministração poderosa e é a última apresentação da cantora, antes da sua turnê na Europa.
                             </p>
                             <p>
-                                E com certeza não vai dá pra perder né!
+                                E com certeza não vai dá pra perder né! Então, anota essa data aí: 11 de agosto!
                             </p>
-                            <p>
-                                Então, anota essa data aí: 11 de agosto!
-                            </p>
+
                             <p>
                                 1º CONECTA TRIBOS
                             </p>
@@ -170,13 +178,15 @@
                             </p>
                         </div>
                     </div>
-
                 </div>
+                
             </div>
             <!-- EVENTO TABLET & MOBILE -->
             <div class="row container hide-on-large-only">
+                    <h2 class="title">O EVENTO</h2>
                 <div class="col s12 container">
-                    <div class="scroll-pane white-text">
+                    <div class="white-text">
+                            <div class="texto-evento">
                         <p>
                             O Beto Carrero você já SABE, é o maior parque de diversões da America Latina com brinquedos do tipo "impossível ir só uma vez".
                         </p>
@@ -207,6 +217,7 @@
                         <p>
                             Várias expressões de amor em um só lugar!
                         </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -223,13 +234,16 @@
                         <img src="includes/img/isadorapompeo-logo.png">
                     </div>
                     <div class="texto-isadora white-text">
-                        <p>Olá, paz!</p>
+
+                        <img class="aspas" src="includes/img/aspas.png">
+
+                        <p class="saudacao">Olá, paz!</p>
                         <p> Me chamo Isadora Pompeo, nasci e cresci dentro de um lar cristão, vivi experiências sobrenaturais durante toda minha infância, e hoje com tudo que tenho aprendido e vivido, entendi que na verdade nunca foi sobre mim, mas sempre sobre Ele em mim. Minha maior intenção dentro de tudo isso, é levar a mensagem mais linda que já foi apresentada para mim, amor. Meu anseio é que você entenda, que: Sua natureza está nEle, Você pode encontrar o ÉDEN que ele pôs dentro de você, apenas entenda: Nunca foi sobre você...Mas sempre sobre Ele em ti!
                         </p>
                         <p>
                             Jesus abençoe!</p>
                         <div class="nome-isadora">
-                            <p>Isadora Pompeo</p>
+                            <p>Isadora Pompeo</p><img class="aspas-invertida" src="includes/img/aspas-invertida.png">
                         </div>
                     </div>
                 </div>
@@ -238,8 +252,30 @@
                     <div class="foto-isadora">
                         <img src="includes/img/isadora-foto.png">
                     </div>
-
                 </div>
+            </div>
+
+            <div class="row container hide-on-large-only">
+                <!-- COLUNA DA ESQUERDA -->
+                <div class="col s12">
+                    <div class="logo-isadora">
+                        <img src="includes/img/isadorapompeo-logo.png">
+                    </div>
+                    <div class="texto-isadora white-text">
+
+                            <img class="aspas" src="includes/img/aspas.png">
+    
+                            <p class="saudacao">Olá, paz!</p>
+                            <p> Me chamo Isadora Pompeo, nasci e cresci dentro de um lar cristão, vivi experiências sobrenaturais durante toda minha infância, e hoje com tudo que tenho aprendido e vivido, entendi que na verdade nunca foi sobre mim, mas sempre sobre Ele em mim. Minha maior intenção dentro de tudo isso, é levar a mensagem mais linda que já foi apresentada para mim, amor. Meu anseio é que você entenda, que: Sua natureza está nEle, Você pode encontrar o ÉDEN que ele pôs dentro de você, apenas entenda: Nunca foi sobre você...Mas sempre sobre Ele em ti!
+                            </p>
+                            <p>
+                                Jesus abençoe!</p>
+                            <div class="nome-isadora">
+                                <p>Isadora Pompeo</p><img class="aspas-invertida" src="includes/img/aspas-invertida.png">
+                            </div>
+                        </div>
+                </div>
+                <!-- COLUNA DA DIREITA -->
 
             </div>
 
@@ -263,12 +299,12 @@
                     <li>
                         <div class="collapsible-header"><i class="medium material-icons">info</i>
                             <h5>Onde posso adquirir meu Ingresso do CONECTA TRIBOS?</h5></div>
-                        <div class="collapsible-body"><span>O Ingresso do CONECTA TRIBOS só poderá ser adquirida através da pagina oficial do evento: www.avivaviagens.com.br/conectatribos.</span></div>
+                        <div class="collapsible-body"><span>O Ingresso do CONECTA TRIBOS só poderá ser adquirida atraves da pagina oficial do evento: www.avivaviagens.com.br/conectatribos.</span></div>
                     </li>
                     <li>
                         <div class="collapsible-header"><i class="medium material-icons">info</i>
                             <h5>O que está incluso no seu Ingresso?</h5></div>
-                        <div class="collapsible-body"><span>O Ingresso do CONECTA TRIBOS dá direito ao Passaporte para o Parque Beto Carrero World + Show da Isadora Pompeo.</span></div>
+                        <div class="collapsible-body"><span>O Ingresso do CONECTA TRIBOS da direito ao Passaporte para o Parque Beto Carrero World + Show exclusivo da Isadora Pompeo.</span></div>
                     </li>
                     <li>
                         <div class="collapsible-header"><i class="medium material-icons">info</i>
@@ -289,9 +325,9 @@
                         <div class="collapsible-header"><i class="medium material-icons">info</i>
                             <h5>Qual horário que devo chegar?</h5></div>
                         <div class="collapsible-body">
-                            <span>- Entre as 08h00 até as 17hs você poderá trocar seu voucher nas mesas de atendimento do CONECTA TRIBOS.<br> 
-              - O Funcionamento do Parque (brinquedos, zoológico, shows e atrações em geral) é das 09h as 18h. <br>
-              - O Show inicia as 19h30 e tem previsão de termino as 21h00.
+                            <span>- Entre as 08h00 até as 12h00 você poderá trocar seu voucher nas mesas de atendimento do CONECTA TRIBOS.<br> 
+                                  - O Funcionamento do Parque (brinquedos, zoológico, shows e atrações em geral) inicia as 09h00.  <br>
+                                  - O CONECTA TRIBOS acontecerá no espaço temático do TEATRO MADAGASCAR, com ínicio as 19h30.
         </span>
                         </div>
                     </li>
@@ -301,8 +337,10 @@
                         <div class="collapsible-body"><span>A participação no Show não será permitida sem aquisição do ingresso único do CONECTA TRIBOS.  </span></div>
                     </li>
                 </ul>
+              <br>
 
             </div>
+            <h5 class="info-parque">Para maiores informações sobre o Parque Beto Carrero, acesse: <a href="https://betocarrero.com.br" target="_blank">betocarrero.com.br</a></a></h5>
         </div>
         </div>
 
@@ -311,17 +349,23 @@
     <footer class="page-footer grey darken-4">
         <div class="container">
             <div class="row">
-                <div class="col l2 s12">
+                <div class="col l2 s12 hide-on-med-and-down">
                     <img src="includes/img/logo-site.png">
                 </div>
                 <div class="info-evento col l8 s12">
                     <h1 class="titulo-footer">1º Conecta Tribos 2018</h1>
-                    <p class="grey-text text-lighten-4">1ª Edição do Conecta Tribos no Beto Carrero World, no dia 21 de Agosto de 2018, com participação exclusiva da cantora ISADORA POMPEO. Este evento é realizado e organizado pela Aviva Viagens</p>
+                    <p class="grey-text text-lighten-4">1ª Edição do Conecta Tribos no Beto Carrero World, no dia 11 de Agosto de 2018, com participação exclusiva da cantora ISADORA POMPEO. Este evento é realizado e organizado pela Aviva Viagens</p>
+                    <div class="contato col s12"><i class="fas fa-phone"></i><span class=telefone>47 3278-6204</span>&emsp;
+                                                <i class="fab fa-whatsapp"></i><span class=telefone>47 99235-4350</span><br>
+                        <span class=email>conectatribos@avivaviagens.com.br </span></div>
                 </div>
-                <div class="aviva-logo col l2 s12">
+                <div class="aviva-logo col l2 s12 hide-on-med-and-down">
                     <a href="http://www.avivaviagens.com.br" target="_blank"><img src="includes/img/avivaviagens-logo.png"></a>
                 </div>
             </div>
+
+        </div>
+
         </div>
         <div class="footer-copyright">
             <div class="container">

@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px){
+    
+    .inscricao .botao-inscricao a{
+      font-size: 18px;
+    }
+    .logomarca img{
+      width: 370px;
+    }    
+    #participacao{
+        height: 800px;
+    }
+  }
