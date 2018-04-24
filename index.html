@@ -41,6 +41,7 @@
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="includes/css/materialize.css" />
     <link rel="stylesheet" href="includes/css/custom.css" />
+    <link rel="stylesheet" href="includes/css/mobile.css"
     <!-- jQuery Scrollpane -->
     <link rel="stylesheet" href="includes/css/jquery.jscrollpane.css" />
 
@@ -103,7 +104,7 @@
     <section>
         <div id="home" class="section scrollspy parallax-container">
             <div class="parallax">
-                <img src="includes/img/bg-home.png">
+                <img src="includes/img/bg-home.jpg">
             </div>
 
             <div class="row">
@@ -118,7 +119,7 @@
                 <div class="botao-inscricao"><a href="#">COMPRE SEU INGRESSO AGORA!</a></div>
             </div>
             <!-- CONTADOR -->
-            <div class="contador hide-on-small-only">
+            <div class="contador hide-on-med-and-down">
                 <div class="soon" id="my-soon-counter" data-due="2018-08-11T10:00-03:00" data-layout="group label-uppercase label-big" data-scale-max="l" data-format="d,h,m,s" data-face="slot" data-visual="ring invert width-thick" data-labels-days="Dias" data-labels-hours="Horas" data-labels-minutes="Minutos" data-labels-seconds="Segundos">
                 </div>
             </div>
@@ -134,10 +135,9 @@
         <div id="evento" class="section scrollspy">
             <div class="row container hide-on-med-and-down">
                 <h2 class="title">O EVENTO</h2>
-                <div class="col s12">
+                <div class="col s6">
                     <div class="texto-evento">
-
-                        <div class="scroll-pane white-text">
+                        <div class="white-text">
                             <p>
                                 O Beto Carrero você já SABE, é o maior parque de diversões da America Latina com brinquedos do tipo "impossível ir só uma vez".
                             </p>
@@ -150,18 +150,23 @@
                             <p>
                                 A ideia é se divertir e ser edificado! Você ficará de ponta cabeça a tarde, e com as mãos levantadas para os céus a noite!
                             </p>
-                            <p>
-                                Um evento sem placa de igreja, perfeito para convidar os seus amigos e todos que você quer evangelizar e por que não, trazer todos do grupo de jovens da sua igreja?!
-                            </p>
+                            
+                                                    </div>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="texto-evento">
+                        <div class="white-text">
+                                <p>
+                                        Um evento sem placa de igreja, perfeito para convidar os seus amigos e todos que você quer evangelizar e por que não, trazer todos do grupo de jovens da sua igreja?!
+                                    </p>
                             <p>
                                 Mas não se engane: será mais que um show inédito em um lugar incrível! Teremos uma ministração poderosa e é a última apresentação da cantora, antes da sua turnê na Europa.
                             </p>
                             <p>
-                                E com certeza não vai dá pra perder né!
+                                E com certeza não vai dá pra perder né! Então, anota essa data aí: 11 de agosto!
                             </p>
-                            <p>
-                                Então, anota essa data aí: 11 de agosto!
-                            </p>
+
                             <p>
                                 1º CONECTA TRIBOS
                             </p>
@@ -170,13 +175,15 @@
                             </p>
                         </div>
                     </div>
-
                 </div>
+                
             </div>
             <!-- EVENTO TABLET & MOBILE -->
             <div class="row container hide-on-large-only">
+                    <h2 class="title">O EVENTO</h2>
                 <div class="col s12 container">
-                    <div class="scroll-pane white-text">
+                    <div class="white-text">
+                            <div class="texto-evento">
                         <p>
                             O Beto Carrero você já SABE, é o maior parque de diversões da America Latina com brinquedos do tipo "impossível ir só uma vez".
                         </p>
@@ -207,6 +214,7 @@
                         <p>
                             Várias expressões de amor em um só lugar!
                         </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -223,13 +231,16 @@
                         <img src="includes/img/isadorapompeo-logo.png">
                     </div>
                     <div class="texto-isadora white-text">
-                        <p>Olá, paz!</p>
+
+                        <img class="aspas" src="includes/img/aspas.png">
+
+                        <p class="saudacao">Olá, paz!</p>
                         <p> Me chamo Isadora Pompeo, nasci e cresci dentro de um lar cristão, vivi experiências sobrenaturais durante toda minha infância, e hoje com tudo que tenho aprendido e vivido, entendi que na verdade nunca foi sobre mim, mas sempre sobre Ele em mim. Minha maior intenção dentro de tudo isso, é levar a mensagem mais linda que já foi apresentada para mim, amor. Meu anseio é que você entenda, que: Sua natureza está nEle, Você pode encontrar o ÉDEN que ele pôs dentro de você, apenas entenda: Nunca foi sobre você...Mas sempre sobre Ele em ti!
                         </p>
                         <p>
                             Jesus abençoe!</p>
                         <div class="nome-isadora">
-                            <p>Isadora Pompeo</p>
+                            <p>Isadora Pompeo</p><img class="aspas-invertida" src="includes/img/aspas-invertida.png">
                         </div>
                     </div>
                 </div>
@@ -238,8 +249,30 @@
                     <div class="foto-isadora">
                         <img src="includes/img/isadora-foto.png">
                     </div>
-
                 </div>
+            </div>
+
+            <div class="row container hide-on-large-only">
+                <!-- COLUNA DA ESQUERDA -->
+                <div class="col s12">
+                    <div class="logo-isadora">
+                        <img src="includes/img/isadorapompeo-logo.png">
+                    </div>
+                    <div class="texto-isadora white-text">
+
+                            <img class="aspas" src="includes/img/aspas.png">
+    
+                            <p class="saudacao">Olá, paz!</p>
+                            <p> Me chamo Isadora Pompeo, nasci e cresci dentro de um lar cristão, vivi experiências sobrenaturais durante toda minha infância, e hoje com tudo que tenho aprendido e vivido, entendi que na verdade nunca foi sobre mim, mas sempre sobre Ele em mim. Minha maior intenção dentro de tudo isso, é levar a mensagem mais linda que já foi apresentada para mim, amor. Meu anseio é que você entenda, que: Sua natureza está nEle, Você pode encontrar o ÉDEN que ele pôs dentro de você, apenas entenda: Nunca foi sobre você...Mas sempre sobre Ele em ti!
+                            </p>
+                            <p>
+                                Jesus abençoe!</p>
+                            <div class="nome-isadora">
+                                <p>Isadora Pompeo</p><img class="aspas-invertida" src="includes/img/aspas-invertida.png">
+                            </div>
+                        </div>
+                </div>
+                <!-- COLUNA DA DIREITA -->
 
             </div>
 
@@ -311,17 +344,20 @@
     <footer class="page-footer grey darken-4">
         <div class="container">
             <div class="row">
-                <div class="col l2 s12">
+                <div class="col l2 s12 hide-on-med-and-down">
                     <img src="includes/img/logo-site.png">
                 </div>
                 <div class="info-evento col l8 s12">
                     <h1 class="titulo-footer">1º Conecta Tribos 2018</h1>
                     <p class="grey-text text-lighten-4">1ª Edição do Conecta Tribos no Beto Carrero World, no dia 21 de Agosto de 2018, com participação exclusiva da cantora ISADORA POMPEO. Este evento é realizado e organizado pela Aviva Viagens</p>
                 </div>
-                <div class="aviva-logo col l2 s12">
+                <div class="aviva-logo col l2 s12 hide-on-med-and-down">
                     <a href="http://www.avivaviagens.com.br" target="_blank"><img src="includes/img/avivaviagens-logo.png"></a>
                 </div>
             </div>
+
+        </div>
+
         </div>
         <div class="footer-copyright">
             <div class="container">
