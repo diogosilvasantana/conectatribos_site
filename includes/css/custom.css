@@ -65,7 +65,7 @@
   text-align: center; }
 
 .logomarca img{
-  width: 550px;
+  width: 600px;
 }
 
 .logomarca-topo img{
@@ -456,30 +456,32 @@ nav ul a{
 @media screen and (max-width: 1000px){
 
   #home{
-    height: 700px;
+    height: 1200px;
   }
-    
+  .title{
+    font-size: 85px;
+  }
   #evento{
-    height: 900px;
+    height: 1600px;
   }
   #evento p{
-    font-size: 17.5px;
+    font-size: 32px;
   }
   .inscricao .botao-inscricao a{
-    font-size: 25px;
+    font-size: 50px;
   }
   .logomarca img{
-    width: 370px;
+    width: 800px;
   }    
   #participacao{
-      height: 850px;
+      height: 1150px;
   }
   .texto-isadora{
-    padding: 60px 25px 15px 25px;
+    padding: 30px 25px 15px 25px;
     text-align: center;
    }
   .texto-isadora p{
-    font-size: 17px;
+    font-size: 35px;
   }
   .scroll-pane {
     height: 400px;
@@ -488,15 +490,44 @@ nav ul a{
     height: 100px;
   }
   .brand-logo img{
-    width: 60%;
+    width: 100%;
   }
 
   .texto-isadora .aspas{
     margin-left: -800px;
    }
    .texto-isadora .saudacao{
-     margin-left: -500px;
+     margin-left: -450px;
    }
+
+   #faq .collapsible-header i{
+    font-size: 5rem;
+    margin-right: 40px;
+   }
+
+   #faq .collapsible-header h5{
+     padding: 10px;
+   }
+
+   #faq .collapsible-header h5{
+     font-size: 2.5rem;
+   }
+
+   .collapsible-body span{
+     font-size: 2rem;
+   }
+   .info-parque{
+     font-size: 28px;
+   }
+   #my-soon-counter {background-color:#1a1616;background-color:rgba(26,22,22,0);}
+   #my-soon-counter .soon-reflection {background-color:#1a1616;background-image:linear-gradient(#1a1616 45%,rgba(26,22,22,0));}
+   #my-soon-counter {background-position:top;}
+   #my-soon-counter {color:#ffffff;}
+   #my-soon-counter {font-family: 'Titillium Web', sans-serif;font-weight:600;font-style:normal;}
+   #my-soon-counter .soon-ring-progress {color:#ffe700;color:rgba(255,231,0,2);}
+   #my-soon-counter .soon-ring-progress {background-color:#f0f0f0;}
+
+
 
 }
 nav .button-collapse i{
